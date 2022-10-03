@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 3vw;
+    box-sizing: border-box;
+
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* aside container */
+#aside {
+    width: 33vw;
+    background-color: #1E2939;
+    color:#ffffff;
+    height: 100%;
+}
+#aside img {
+    width: 100%;
+    height: auto;
+}
+
+#aside-information {
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#aside-information div {
+    margin-bottom: 1vw;
+}
+
+#contacts,
+#education {
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+.education-period,
+.work-period {
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+    display: flex;
+    align-items: center;
+    color: #787876;
+}
+
+.divider {
+    font-size: 1.5vw;
+    margin: 0 0.2vw;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.symbols{
+    display: flex;
+    align-items: center;
+}
+
+.university-name,
+.work-company {
+    color: #e19f6e;
+}
+
+.education-major {
+    color: #b0bbc1;
+}
+
+.symbols span {
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+
+/* main section */
+#main-container  {
+    width: 67vw;
+    padding: 0 4vw;
+    color: #1E2939;
+}
+
+
+
+h1,
+h1 + p {
+    margin-bottom: 1vw;
+}
+
+h1 + p {
+    font-size: 1.5vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+.work-exp-duties {
+    list-style-position: inside;
+}
+
+.work-exp-duty {
+    font-size: 1.2vw;
+}
+
+.work {
+    margin: 1.25vw 0;
+}
+
+/* responsive */
+
+
+.box{
+      display: none;
+    }
+
+    #responsive-skills {
+        display: none;
+    }
+    
+    #responsive-heading {
+        display: none;
+    }
+    
+    .responsive-symbol {
+        display: none;
+    }
+
+    .box img {
+        width: 10vw;
+        filter: invert(1);
+        margin-bottom: 1vw;
+    }
+
+    #arrow {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 50px;
+        height:  50px;
+        transform: rotate(180deg);
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+    } 
+
+    #arrow:hover {
+        background-color: #b0bbc1;
+    }
+
+    .responsive-education {
+        display: none;
+    }
+
+@media only screen and (max-width: 850px) {
+    #arrow {
+        display: initial;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive-education {
+        display: initial;
+    }
+
+    #aside {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    h1 + p {
+        display: none;
+    }
+    #aside img {
+        margin-top: 1vw;
+        width: 25vw;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    #responsive-heading {
+        display: initial;
+    }
+  
+    #work-experience,
+    #main-heading {
+        display: none;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    #responsive-heading-education,
+    #responsive-licenses    {
+        display: initial;
+        color:#1E2939;
+        font-size: 3vw;
+    }
+
+    #education {
+        position: absolute;
+        top: 41vw;
+        left: 35px;
+        height:  300px;
+        width: 90vw;
+       
+    }
+
+    #aside {
+        height: 40vw;
+    }
+
+    #contacts {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 70vw;
+    }
+
+    #contacts * {
+        font-size: 3vw;
+    }
+
+    .responsive-symbol {
+        display: initial;
+        align-self: center;
+    }
+
+    #main-container {
+        width: 100vw;
+    }
+    h1 + p {
+        font-size: 2vw;
+        margin: 3vw;
+        text-align: center;
+    }
+
+    #responsive-skills {
+        padding: 0 3vw;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-row: auto auto;
+        row-gap: 2vw;
+        column-gap: 3vw;
+        justify-items: space-around;
+      
+    }
+}
