@@ -50,20 +50,53 @@
         </div>
         <!-- main -->
         <div id="main-container">
+            <img src="coolicon.svg" alt="arrow" id="arrow">
             <h1 id="main-heading">Tetiana Rossip</h1>
-            <p>For the last 5 years, I've been living & working abroad as a musician. I was studying computer science in the past, but in the third year of my studying, I left university because I moved abroad. Last year I joined Interregional Academy of Personnel Management to study clinical psychology.</p>
+            <p id="about-me">For the last 5 years, I've been living & working abroad as a musician. I was studying computer science in the past, but in the third year of my studying, I left university because I moved abroad. Last year I joined Interregional Academy of Personnel Management to study clinical psychology.</p>
             <div id="responsive-skills">
-                <div class="box" onclick="location='work.html'"> <img src="portfolio.png" alt="Work experience">Work experience</div>
-                <div class="box" onclick="location='education.html'"><img src="graduation-cap (1).png" alt="education">
+                <div class="box" id="work-box"> <img src="portfolio.png" alt="Work experience">Work experience</div>
+                <div class="box" id="education-box"><img src="graduation-cap (1).png" alt="education">
                 Education</div>
-                <div class="box" onclick="location='skills.html'"><img src="skill.png" alt="skills" >Skills</div>
-                <div class="box" onclick="location.href='https://github.com/tanya-rossip?tab=repositories'"><img src="portfolio2.png" alt="">Portfolio</div>
+                <div class="box" id="skills-box"><img src="skill.png" alt="skills" >Skills</div>
+                <div class="box" id="portfolio-box"><img src="portfolio2.png" alt="" onclick="location.href='https://github.com/tanya-rossip?tab=repositories'">Portfolio</div>
             </div>
+            <div id="responsive-education">
+                <p>
+                    <h4 class="university-name">Interregional Academy of Personnel Management</h4>
+                    <span class="education-major">Clinical Psychology</span> 
+                    <p class="education-period">September 2020 - June 2024 <span class="divider">|</span> Ukraine, Kyiv</p>    
+                </p>
+                <p>
+                    <h4 class="university-name">Odesa National University of Technology </h4>
+                    <span class="education-major">Computer Science</span>
+                    <p class="education-period">September 2012 - March 2015 <span class="divider">|</span> Ukraine, Odesa</p>    
+                </p>
+                <h3 id="responsive-licenses">Licenses & certifications</h3>
+                <p class="responsive-education">
+                    <h4 class="university-name responsive-education">University of California, Davis</h4>
+                    <span class="education-major responsive-education">Data Manipulation in JavaScript, JavaScript Basics  </span>
+                    <p class="education-period responsive-education">Jul - Aug 2022<span class="divider">|</span> Coursera</p> 
+                </p>
+                <p class="responsive-education">
+                    <h4 class="university-name responsive-education">The Johns Hopkins University</h4>
+                    <span class="education-major responsive-education">HTML, CSS, and Javascript for Web Developers</span>
+                    <p class="education-period responsive-education">Issued Jul 2022 <span class="divider">|</span> Coursera</p> 
+                </p>
+                <p class="responsive-education">
+                    <h4 class="university-name responsive-education">The Johns Hopkins University</h4>
+                    <span class="education-major responsive-education">HTML, CSS, and Javascript for Web Developers</span>
+                    <p class="education-period responsive-education">Issued Jul 2022 <span class="divider">|</span> Coursera</p> 
+                </p>
+                <p class="responsive-education">
+                    <h4 class="university-name responsive-education">Codecademy</h4>
+                    <span class="education-major responsive-education">HTML, CSS, and Javascript intermediate course </span>
+                    <p class="education-period responsive-education">Jun - Jul 2022 <span class="divider">|</span>Online</p> 
+               </div>
             <div id="work-experience">
                 <h3>Work experience</h3>
                 <div class="work">
                     <h4 class="position">Musician <span class="work-company">Costa Cruises</span></h4>
-                    <p class="work-period">June 2021 - December 2021  <span class="divider">|</span>Italy, Greece, Croatia, France, Spain </p>
+                    <p class="work-period">June 2021 - December 2021<span class="divider">|</span>Italy, Greece, Croatia, France, Spain </p>
                     <ul class="work-exp-duties">
                         <li class="work-exp-duty">Daily performances at the main hall in front of 3000+ people</li> 
                         <li class="work-exp-duty">Was a judge on a song contest “The Voice of the Sea”. </li> 
@@ -96,8 +129,17 @@
                     </ul>
                 </div>
             </div>
-           
-            
+        </div>
+        <div id="skills">
+            <div class="box" >HTML, CSS and Javascirpt<progress  max="100" value="80"></progress></div>
+            <div class="box">English<progress  max="100" value="100"></progress></div>
+            <div class="box">GitHub<progress  max="100" value="90"></progress></div>
+            <div class="box">VS Code<progress  max="100" value="100"></progress></div>
+            <div class="box">Photoshop<progress  max="100" value="75"></progress></div>
+            <div class="box">Figma<progress  max="100" value="75"></progress></div>
+            <div class="box">Public Speaking<progress  max="100" value="100"></progress></div>
+            <div class="box">Teamwork<progress  max="100" value="100"></progress></div>
+
         </div>
     </main>
     <script src="script.js"></script>
