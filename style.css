@@ -193,8 +193,12 @@ h1 {
         display: none;
     }
 @media only screen and (max-width: 850px) {
-      #work-experience * {
+    #work-experience * {
         font-size: 2rem;
+    }
+
+    .divider {
+        font-size: 1vw !important;
     }
 
     * {
@@ -203,6 +207,9 @@ h1 {
 
     #work-period {
         flex-direction: column;
+    }
+    .work-period {
+        font-size: 1vw !important;
     }
 
     main {
@@ -285,3 +292,4 @@ h1 {
         accent-color: #e19f6e;     
     }
 }
+
