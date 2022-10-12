@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Roboto;
-    font-size: 1vw;
+    /* font-size: 1vw; */
     box-sizing: border-box;
 }
 
@@ -40,9 +40,9 @@ main {
     flex-direction: column;
 }
 
-h3{
+/* h3{
     font-size: 2vw;
-}
+} */
 
 h4 {
     font-weight: 600;
@@ -50,14 +50,14 @@ h4 {
 
 .education-period,
 .work-period {
-    font-size: 1.2vw;
+    /* font-size: 1.2vw; */
     margin-bottom: 0.5vw;
     display: flex;
    
 }
 
 .divider {
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     margin: 0 0.2vw;
 }
 
@@ -81,7 +81,7 @@ h4 {
 }
 
 .symbols span {
-    font-size: 2vw;
+    /* font-size: 2vw; */
     margin-right: 1vw;
 }
 
@@ -120,22 +120,22 @@ h1,
 h1 + p {
     margin-bottom: 1vw;
 }
-
+/* 
 h1 + p {
     font-size: 1.5vw;
-}
+} */
 
-h1 {
+/* h1 {
     font-size: 5vw;
-}
+} */
 
 .work-exp-duties {
     list-style-position: inside;
 }
 
-.work-exp-duty {
+/* .work-exp-duty {
     font-size: 1.2vw;
-}
+} */
 
 .work {
     margin: 1.25vw 0;
@@ -193,7 +193,7 @@ h1 {
         display: none;
     }
 @media only screen and (max-width: 850px) {
-    #work-experience * {
+    /* #work-experience * {
         font-size: 2rem;
     }
 
@@ -203,14 +203,14 @@ h1 {
 
     * {
         font-size: 0.8rem;
-    }
+    } */
 
     #work-period {
         flex-direction: column;
     }
-    .work-period {
+    /* .work-period {
         font-size: 1vw !important;
-    }
+    } */
 
     main {
         flex-direction: column;
@@ -247,9 +247,9 @@ h1 {
         display: initial;
     }
 
-    #responsive-education * {
+    /* #responsive-education * {
         font-size: 3vw;
-    }
+    } */
 
     h3 {
         display: none;
@@ -262,9 +262,9 @@ h1 {
         width: 90vw;
     }
 
-    #contacts * {
+    /* #contacts * {
         font-size: 4.1vw;
-    }
+    } */
 
     .responsive-symbol {
         display: initial;
@@ -275,7 +275,7 @@ h1 {
         width: 100vw;
     }
     h1 + p {
-        font-size: 4vw;
+        /* font-size: 4vw; */
         margin: 0.85vw;
         text-align: center;
     }
@@ -292,4 +292,3 @@ h1 {
         accent-color: #e19f6e;     
     }
 }
-
